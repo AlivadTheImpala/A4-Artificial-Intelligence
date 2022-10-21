@@ -1,10 +1,39 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
+header {
+    background-color: aqua;
+    /* height: 300px; */
+    text-align: center;
+
+}
+
+header h1 {
+    padding: 10px;
+}
 
 .wrapper {
-    height: 600px;
-    background-color: rgb(221, 221, 69);
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+main {
+
+    width: 80%;
+    background-color: brown;
+}
+
+aside {
+    width: 20%;
+
+    background-color: cadetblue;
+}
+
+footer {
+    height: 100px;
+    background-color: bisque;
 }
