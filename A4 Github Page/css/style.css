@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.wrapper {
+    height: 600px;
+    background-color: rgb(221, 221, 69);
+}
